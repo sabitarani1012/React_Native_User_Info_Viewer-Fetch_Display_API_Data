@@ -31,10 +31,16 @@ Here are some example screenshots of the app in action:
   </tr>
 </table>
 
+## Output Video  
+
+Here is the output video of the app in action:  
+If the video is not available, you can find it in `assets/OutputVideo1.MP4`.
+
 <video width="500" controls>
   <source src="assets/OutputVideo1.MP4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 
