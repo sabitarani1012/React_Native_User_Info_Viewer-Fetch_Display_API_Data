@@ -17,6 +17,14 @@ This is a **React Native** application that fetches and displays user informatio
   - **Next Button**: Navigates to the next user's details.  
 - Displays data for **100 users**, one user at a time.  
 
+## Output Screenshots  
+Here are some example screenshots of the app in action:  
+
+![Output Display 1](assets/OutputDisplay1.PNG)  
+![Output Display 2](assets/OutputDisplay2.PNG)  
+![Output Display 3](assets/OutputDisplay3.PNG)  
+![Output Display 4](assets/OutputDisplay4.PNG)  
+
 ## API Usage
 The app fetches data from [Random Data API](https://random-data-api.com/). The `size` parameter in the URL defines the number of users to fetch:
 - Fetch **100 users**:  
@@ -84,19 +92,6 @@ React_Native_User_Info_Viewer/
    - Press `a` to open in Android Emulator
    - Scan the QR code with **Expo Go** on your mobile device
 
-## Project Structure
-```
-React_Native_User_Info_Viewer/
-│── components/
-│   ├── NavigationButtons.js  # Handles next/previous user navigation
-│   ├── UserAvatar.js         # Displays user avatar
-│   ├── UserDetails.js        # Displays user information
-│── screens/
-│   ├── HomeScreen.js        # Main screen displaying user data
-│── App.js                    # Entry point of the application
-│── package.json              # Project dependencies
-│── README.md                 # Project documentation
-```
 
 ## Additional Notes
 - The app uses **React Native hooks** for state management.
