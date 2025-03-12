@@ -20,11 +20,16 @@ This is a **React Native** application that fetches and displays user informatio
 ## Output Screenshots  
 Here are some example screenshots of the app in action:  
 
-<img src="assets/OutputDisplay1.PNG" alt="Output Display 1" width="300"/>  
-<img src="assets/OutputDisplay2.PNG" alt="Output Display 2" width="300"/>  
-<img src="assets/OutputDisplay3.PNG" alt="Output Display 3" width="300"/>  
-<img src="assets/OutputDisplay4.PNG" alt="Output Display 4" width="300"/>  
-
+<table>
+  <tr>
+    <td><img src="assets/OutputDisplay1.PNG" alt="Output Display 1" width="300"/></td>
+    <td><img src="assets/OutputDisplay2.PNG" alt="Output Display 2" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/OutputDisplay3.PNG" alt="Output Display 3" width="300"/></td>
+    <td><img src="assets/OutputDisplay4.PNG" alt="Output Display 4" width="300"/></td>
+  </tr>
+</table>
 
 ## API Usage
 The app fetches data from [Random Data API](https://random-data-api.com/). The `size` parameter in the URL defines the number of users to fetch:
