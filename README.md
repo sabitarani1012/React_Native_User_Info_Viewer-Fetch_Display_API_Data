@@ -1,7 +1,7 @@
 # React Native User Information App
 
 ## Overview  
-This is a **React Native** application that fetches and displays user information from a public API. The app allows users to navigate through multiple user profiles using **Next** and **Previous** buttons.  
+This is a **React Native** application that fetches and displays user information from a public API and display in Expo Go Mobile Application. The app allows users to navigate through multiple user profiles using **Next** and **Previous** buttons.  
 
 ## Features  
 - Fetch and display user details including:  
