@@ -33,16 +33,8 @@ Here are some example screenshots of the app in action:
 
 ## Output Video  
 
-Here is the output video of the app in action:  
-If the video is not available, you can find it in `assets/OutputVideo1.MP4`.
-
-<video width="500" controls>
-  <source src="assets/OutputVideo1.MP4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-
+Click the link below to watch the output video:  
+[Watch Output Video](https://github.com/sabitarani1012/React_Native_User_Info_Viewer-Fetch_Display_API_Data/raw/main/assets/OutputVideo1.MP4)
 
 ## API Usage
 The app fetches data from [Random Data API](https://random-data-api.com/). The `size` parameter in the URL defines the number of users to fetch:
