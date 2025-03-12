@@ -1,26 +1,27 @@
 import React from 'react';
-import { View, Image, TextInput, StyleSheet } from 'react-native';
+import { View, Image, Text, TextInput, StyleSheet } from 'react-native';
 
 // UserAvatar Component - Displays user's profile picture along with their name and username
 export default function UserAvatar({ user }) {
   return (
     <View style={styles.avatarContainer}>
       {/* Spacer to create a gap at the top */}
-    <View style={{ height: 50 }}></View>
+      <View style={{ height: 50 }}></View>
+      
+      {/* Display user's avatar */}
       <Image source={{ uri: user.avatar }} style={styles.avatar} />
-      <TextInput
-        style={styles.nameInput}
-        value={`${user.first_name || 'N/A'} ${user.last_name || 'N/A'}`}
-        editable={false}
-      />
-      <TextInput
-        style={styles.usernameInput}
-        value={user.username || 'N/A'}
-        editable={false}
-      />
+      {/* Display user's full name */}
+      <Text style={styles.nameInput}>
+        {`${user.first_name || 'N/A'} ${user.last_name || 'N/A'}`}
+      </Text>
+      
+      {/* Display user's username */}
+      <Text style={styles.usernameInput}> {user.username || 'N/A'}
+      </Text>
     </View>
   );
 }
+
 // Styles for the UserAvatar component
 const styles = StyleSheet.create({
   avatarContainer: {
