@@ -34,7 +34,11 @@ Here are some example screenshots of the app in action:
 ## Output Video  
 
 Click the link below to watch the output video:  
-[Watch Output Video](https://github.com/sabitarani1012/React_Native_User_Info_Viewer-Fetch_Display_API_Data/raw/main/assets/OutputVideo1.MP4)
+[📹 Watch Output Video](https://github.com/sabitarani1012/React_Native_User_Info_Viewer-Fetch_Display_API_Data/raw/main/assets/OutputVideo1.MP4)  
+
+![Output GIF](assets/OutputVideo1.gif)  
+
+If the video doesn’t play, you can download and view the result.  
 
 ## API Usage
 The app fetches data from [Random Data API](https://random-data-api.com/). The `size` parameter in the URL defines the number of users to fetch:
