@@ -31,6 +31,13 @@ Here are some example screenshots of the app in action:
   </tr>
 </table>
 
+<video width="500" controls>
+  <source src="assets/OutputVideo1.MP4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 ## API Usage
 The app fetches data from [Random Data API](https://random-data-api.com/). The `size` parameter in the URL defines the number of users to fetch:
 - Fetch **100 users**:  
