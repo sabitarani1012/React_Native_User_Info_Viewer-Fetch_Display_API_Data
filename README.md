@@ -53,11 +53,11 @@ Ensure you have the following installed:
 ### Steps to Run the Application
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sabitarani1012/React_Native_User_Info_Viewer.git
+   git clone https://github.com/sabitarani1012/React_Native_User_Info_Viewer-Fetch_Display_API_Data.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd React_Native_User_Info_Viewer
+   cd React_Native_User_Info_Viewer-Fetch_Display_API_Data
    ```
 3. Install dependencies:
    ```bash
